@@ -1,0 +1,39 @@
+* INPUT/OUTPUT *
+
+cout --> output(print)   cout << "hello" << endl; return 0;
+cin -- > input     cin >> x;   (enter some text)
+
+
+* DATA TYPES *
+
+boolean -->	1 byte -->	Stores true or false values
+char -->	1 byte -->	Stores a single character/letter/number, or ASCII values
+int -->	2 or 4 bytes -->	Stores whole numbers, without decimals
+float -->	4 bytes -->	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
+double -->	8 bytes -->	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+
+* ARITHMETIC OPERATORS *
+
++ --> add => a + b
+- --> subtraction => a - b
+* --> multiply => a * b
+/ --> divide => a / b
+% --> modulus => a % b (Returns the division remainder)
+++ --> increment => increases value by 1
+-- --> decrement => decreases value by 1
+
+* STRINGS *
+// include the string library
+// #include <string>
+
+(string greeting = "Hello";
+cout << greeting;)
+
+string f_name = Roburt, string l_name = Sulev
+if we use ( + ) with 2 string will return ( string full_name = f_name + l_name => RoburtSulev
+
+int num_a = 10, int num_b = 20 will return ( int num_c = num_a + num_b => 30
+
+if we have string num_a= 10, string num_b = 20 will return( string num_c => 1020 )
+
+CANT use + with int and string
